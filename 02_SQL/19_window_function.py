@@ -21,3 +21,4 @@ if __name__=='__main__':
     #NTILE窗口函数
     spark.sql('''select *,NTILE(6) over(order by score desc) from stu''')
 
+

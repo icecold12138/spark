@@ -1,7 +1,6 @@
 #coding=utf8
 from pyspark.sql import SparkSession
 from pyspark.sql.types import StructType,StringType,IntegerType
-import pandas as pd
 import pyspark.sql.functions as F
 if __name__=='__main__':
     #构建Sparksession对象

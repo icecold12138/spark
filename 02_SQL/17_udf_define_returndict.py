@@ -1,6 +1,5 @@
 #coding=utf8
 import string
-
 from pyspark.sql import SparkSession
 from pyspark.sql.types import StructType,StringType,IntegerType,ArrayType
 import pandas as pd
